@@ -1,0 +1,62 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: aerodocs
+      POSTGRES_PASSWORD: aerodocs
+      POSTGRES_DB: aerodocs
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aerodocs"]
+      interval: 3s
+      retries: 20
+
+  api:
+    build:
+      context: ./backend
+      args:
+        INSTALL_ML: ${INSTALL_ML:-true}
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://aerodocs:aerodocs@db:5432/aerodocs
+      UPLOAD_DIR: /data/storage
+    volumes:
+      - storage:/data/storage
+      - ./data:/data/corpus:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+
+  # Optionnel : LLM open-weight local (docker compose --profile ollama up)
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+    # GPU NVIDIA (Docker Desktop + WSL2). Sans GPU, supprimer ce bloc : Ollama tourne alors sur CPU.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  pgdata:
+  storage:
+  ollama:

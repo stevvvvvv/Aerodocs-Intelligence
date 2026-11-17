@@ -1,0 +1,20 @@
+{"id": "q01", "question": "What is the inspection interval for the shock strut dynamic seals?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "3.2", "expected_values": ["500 FH"], "expect_contradiction": true}
+{"id": "q02", "question": "What nitrogen pressure should the main landing gear shock strut be charged to?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "2.1", "expected_values": ["1,450 psi"]}
+{"id": "q03", "question": "How often must the hydraulic fluid level of the shock strut be checked?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "2.2", "expected_values": ["500 FH"]}
+{"id": "q04", "question": "What is the torque value for the shock strut gland nut?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "4", "expected_values": ["90 N.m"]}
+{"id": "q05", "question": "What is the maximum permissible pitting depth on the chrome surface?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "3.1", "expected_values": ["0.25 mm"]}
+{"id": "q06", "question": "How often is the lower bearing inspected for corrosion?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "3.3", "expected_values": ["24 months"]}
+{"id": "q07", "question": "When must the engine driven pump case drain filter be replaced?", "answerable": true, "expected_family": "AMM 29-10 Green Hydraulic System", "expected_section": "2 FILTERS", "expected_values": ["1,000 FH"]}
+{"id": "q08", "question": "How often should hydraulic fluid samples be taken for contamination analysis?", "answerable": true, "expected_family": "AMM 29-10 Green Hydraulic System", "expected_section": "4 FLUID", "expected_values": ["6 months"]}
+{"id": "q09", "question": "To what pressure is the hydraulic reservoir pressurized?", "answerable": true, "expected_family": "AMM 29-10 Green Hydraulic System", "expected_section": "3 RESERVOIR", "expected_values": ["50 psi"]}
+{"id": "q10", "question": "Which seal kit part number replaces the dynamic seals?", "answerable": true, "expected_family": "SB 32-014 Dynamic Seal", "expected_section": "2.2", "expected_values": ["32-1175-02"]}
+{"id": "q11", "question": "What is the maximum permissible leakage rate at the dynamic seal?", "answerable": true, "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "3.2", "expected_values": ["2 drops per minute"]}
+{"id": "q12", "question": "What is the maximum permissible water content of the hydraulic fluid?", "answerable": true, "expected_family": "AMM 29-10 Green Hydraulic System", "expected_section": "4 FLUID", "expected_values": ["0.1 %"]}
+{"id": "q13", "question": "Quel est l'intervalle d'inspection des joints dynamiques de l'amortisseur ?", "answerable": true, "lang": "fr", "expected_family": "AMM 32-11 MLG Shock Strut", "expected_section": "3.2", "expected_values": ["500 FH"]}
+{"id": "q14", "question": "What is the nose wheel tire pressure?", "answerable": false}
+{"id": "q15", "question": "What is the oil change interval for the APU?", "answerable": false}
+{"id": "q16", "question": "What is the maximum takeoff weight of the aircraft?", "answerable": false}
+{"id": "q17", "question": "How long does a brake wear pin inspection take?", "answerable": false}
+{"id": "q18", "question": "What is the torque value for the wheel axle nut?", "answerable": false, "note": "piège : une valeur de couple existe, mais pour l'écrou de presse-étoupe, pas pour l'axe de roue"}
+{"id": "q19", "question": "What de-icing fluid is approved for the wings?", "answerable": false}
+{"id": "q20", "question": "Who is the accountable manager of the CAMO?", "answerable": false}
