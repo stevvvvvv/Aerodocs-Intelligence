@@ -262,3 +262,15 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); }
 .diff .plus .sign { color: var(--ok); }
 .diff .minus { background: rgba(248, 113, 113, 0.08); color: #f6c4c4; }
 .diff .minus .sign { color: var(--bad); }
+
+/* ---------- Démo statique ---------- */
+.picker { background: var(--surface); border: 1px solid var(--line-2); border-radius: 18px; padding: 14px 16px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35); }
+.picker p { margin: 0 0 10px; }
+.picker .chips { margin-top: 0; }
+.chip:disabled { opacity: 0.5; cursor: wait; }
+.repo-link { font-size: 13px; color: var(--accent); text-decoration: none; }
+.repo-link:hover { text-decoration: underline; }
+.dock .picker { max-width: 852px; margin: 0 auto; padding: 10px 12px; }
+.dock .picker p { display: none; }
+.dock .picker .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+.dock .picker .chip { white-space: nowrap; }

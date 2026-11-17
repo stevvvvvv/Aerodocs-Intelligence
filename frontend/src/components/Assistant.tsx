@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { api } from "../api";
+import { STATIC_MODE, api } from "../api";
 import { IconAlert, IconCheck, IconSend, IconX } from "../icons";
 import type { Answer, Family, Source } from "../types";
 import { SourceDrawer, pagesLabel } from "./SourceDrawer";
@@ -207,32 +207,54 @@ export function Assistant() {
   const [family, setFamily] = useState("");
   const [families, setFamilies] = useState<Family[]>([]);
   const [turns, setTurns] = useState<Turn[]>([]);
+  const [demo, setDemo] = useState<{ question: string; include_superseded: boolean }[]>([]);
   const [open, setOpen] = useState<Source | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
   const busy = turns.some((t) => !t.answer && !t.error);
 
   useEffect(() => {
     api.families().then(setFamilies).catch(() => {});
+    api.demoQuestions().then(setDemo).catch(() => {});
   }, []);
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [turns]);
 
-  async function ask(q = question) {
+  async function ask(q = question, superseded = includeSuperseded) {
     q = q.trim();
     if (q.length < 3 || busy) return;
     const id = Date.now();
-    setTurns((t) => [...t, { id, question: q }]);
+    setTurns((t) => [...t, { id, question: superseded ? `${q} (versions remplacées incluses)` : q }]);
     setQuestion("");
     try {
-      const answer = await api.query({ question: q, include_superseded: includeSuperseded, family: family || undefined });
+      const answer = await api.query({ question: q, include_superseded: superseded, family: family || undefined });
       setTurns((t) => t.map((x) => (x.id === id ? { ...x, answer } : x)));
     } catch (e) {
       setTurns((t) => t.map((x) => (x.id === id ? { ...x, error: (e as Error).message } : x)));
     }
   }
 
-  const composer = (
+  const asked = new Set(turns.map((t) => t.question));
+  const label = (d: { question: string; include_superseded: boolean }) =>
+    d.include_superseded ? `${d.question} (versions remplacées incluses)` : d.question;
+  const picker = (
+    <div className="picker">
+      <p className="muted small">
+        Démo en ligne : réponses pré-calculées par le pipeline réel. Pour poser vos propres questions, lancez le projet en local.
+      </p>
+      <div className="chips">
+        {demo
+          .filter((d) => !asked.has(label(d)))
+          .map((d) => (
+            <button key={label(d)} className="chip" disabled={busy} onClick={() => ask(d.question, d.include_superseded)}>
+              {label(d)}
+            </button>
+          ))}
+      </div>
+    </div>
+  );
+
+  const composer = STATIC_MODE ? picker : (
     <form
       className="composer"
       onSubmit={(e) => {
@@ -287,13 +309,15 @@ export function Assistant() {
             système refuse. Si deux documents divergent, il le signale.
           </p>
           {composer}
-          <div className="chips">
-            {EXAMPLES.map((q) => (
-              <button key={q} className="chip" onClick={() => ask(q)}>
-                {q}
-              </button>
-            ))}
-          </div>
+          {!STATIC_MODE && (
+            <div className="chips">
+              {EXAMPLES.map((q) => (
+                <button key={q} className="chip" onClick={() => ask(q)}>
+                  {q}
+                </button>
+              ))}
+            </div>
+          )}
           <p className="muted small corpus-note">Corpus de démonstration fictif : manuel de train d'atterrissage (2 révisions), bulletin de service, manuel hydraulique.</p>
         </div>
       ) : (

@@ -4,7 +4,7 @@
 
 Projet 02 du portfolio de Steven Jansen. Il fait suite à AeroHealth AI (maintenance prédictive).
 
-**[Démo en ligne](https://huggingface.co/spaces/Steevv/aerodocs-intelligence)** (lecture seule, corpus fictif, réponses extractives sans LLM) · [Évaluation](docs/EVALUATION.md) · [Architecture](docs/ARCHITECTURE.md)
+**[Démo en ligne](https://stevvvvvv.github.io/Aerodocs-Intelligence/)** (statique : réponses pré-calculées par le vrai pipeline, corpus fictif) · [Évaluation](docs/EVALUATION.md) · [Architecture](docs/ARCHITECTURE.md)
 
 ![Réponse avec citations et contradiction détectée](docs/screenshots/assistant-contradiction.png)
 
@@ -59,22 +59,18 @@ docker compose exec ollama ollama pull mistral
 
 Le service Ollama réserve le GPU NVIDIA (Docker Desktop + WSL2). Sur une RTX 2060 (6 Go), Mistral 7B quantifié tient en mémoire. Sans GPU, supprimez le bloc `deploy` du service `ollama` dans `docker-compose.yml` : la génération passe sur CPU, et compte alors plusieurs minutes par réponse.
 
-### Déploiement de la démo (Hugging Face Spaces)
+### Démo en ligne (GitHub Pages)
 
-L'image `deploy/Dockerfile.space` regroupe PostgreSQL + pgvector, l'API et l'interface dans un seul conteneur, sur le port 7860. Elle tourne en lecture seule et importe le corpus fictif au démarrage. Le workflow `.github/workflows/deploy-space.yml` la publie à chaque push sur `main`. Il nécessite, dans les paramètres du dépôt GitHub (Secrets and variables, puis Actions) :
+La démo publique est un site statique et gratuit. L'interface rejoue des réponses que le vrai pipeline a calculées à l'avance : recherche, garde-fous, génération et vérification des citations. Le résultat est figé dans `frontend/public/demo/snapshot.json`, avec les PDF et les comparaisons de versions. Le workflow `pages` la republie à chaque push sur `main`.
 
-- le secret `HF_TOKEN`, un token Hugging Face avec droit d'écriture ;
-- la variable `HF_SPACE`, par exemple `Steevv/aerodocs-intelligence`.
-
-Pour activer une vraie génération sur la démo, ajoutez `LLM_PROVIDER`, `LLM_MODEL` et `ANTHROPIC_API_KEY` dans les secrets du Space.
-
-### Données réelles (EASA)
-
-Voir [docs/DATA.md](docs/DATA.md). Les Easy Access Rules for Continuing Airworthiness existent en plusieurs révisions publiques, ce qui permet de tester la gestion des versions sur de vrais documents de plus de 1 000 pages :
+Pour régénérer l'instantané, par exemple avec Mistral et e5 pour que la question en français obtienne une réponse :
 
 ```bash
-python backend/scripts/import_folder.py data/raw --api http://localhost:8000
+docker compose exec api python -m scripts.export_static /tmp/demo-export
+docker compose cp api:/tmp/demo-export/. frontend/public/demo/
 ```
+
+Une démo dynamique, avec des questions libres, est possible sur un Hugging Face Space Docker (`deploy/Dockerfile.space` : PostgreSQL, API et interface dans un seul conteneur, en lecture seule). Ce type de Space nécessite un abonnement PRO.
 
 ## Architecture
 

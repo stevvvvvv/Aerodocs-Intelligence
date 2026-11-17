@@ -2,7 +2,7 @@ import "@fontsource-variable/inter";
 import "@fontsource-variable/jetbrains-mono";
 import { StrictMode, useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { api } from "./api";
+import { STATIC_MODE, api, type Health } from "./api";
 import { Assistant } from "./components/Assistant";
 import { Documents } from "./components/Documents";
 import { Versions } from "./components/Versions";
@@ -16,13 +16,6 @@ const TABS = [
 ] as const;
 type Tab = (typeof TABS)[number]["id"];
 
-interface Health {
-  embeddings: string;
-  llm_provider: string;
-  llm_model: string | null;
-  read_only: boolean;
-}
-
 function App() {
   const [tab, setTab] = useState<Tab>("assistant");
   const [health, setHealth] = useState<Health | null>(null);
@@ -31,7 +24,7 @@ function App() {
   useEffect(() => {
     api
       .health()
-      .then((h) => setHealth(h as Health))
+      .then(setHealth)
       .catch(() => setDown(true));
   }, []);
 
@@ -69,8 +62,13 @@ function App() {
               </div>
               {health?.read_only && (
                 <div className="sys-row ro">
-                  <IconLock width={14} height={14} /> Démo en lecture seule
+                  <IconLock width={14} height={14} /> {STATIC_MODE ? "Démo statique, pré-calculée" : "Démo en lecture seule"}
                 </div>
+              )}
+              {STATIC_MODE && import.meta.env.VITE_REPO_URL && (
+                <a className="repo-link" href={import.meta.env.VITE_REPO_URL} target="_blank" rel="noreferrer">
+                  Code source sur GitHub →
+                </a>
               )}
             </>
           )}

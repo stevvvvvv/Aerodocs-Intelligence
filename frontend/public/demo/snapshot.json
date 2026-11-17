@@ -1,0 +1,1651 @@
+{
+ "generated_at": "2026-11-17T11:22:31+00:00",
+ "health": {
+  "embeddings": "hashing",
+  "llm_provider": "extractive",
+  "llm_model": null,
+  "read_only": true
+ },
+ "documents": [
+  {
+   "id": 4,
+   "family": "AMM 29-10 Green Hydraulic System",
+   "title": "AMM 29-10 - Green Hydraulic System",
+   "version_label": "Rev. C",
+   "effective_date": "2024-09-01",
+   "is_current": true,
+   "source_filename": "AMM-29-10_RevC.pdf",
+   "page_count": 2,
+   "chunk_count": 7,
+   "uploaded_at": "2026-11-17T12:22:30.692260+01:00"
+  },
+  {
+   "id": 1,
+   "family": "AMM 32-11 MLG Shock Strut",
+   "title": "AMM 32-11 - MLG Shock Strut",
+   "version_label": "Rev. A",
+   "effective_date": "2024-01-15",
+   "is_current": false,
+   "source_filename": "AMM-32-11_RevA.pdf",
+   "page_count": 3,
+   "chunk_count": 10,
+   "uploaded_at": "2026-11-17T12:22:30.605479+01:00"
+  },
+  {
+   "id": 2,
+   "family": "AMM 32-11 MLG Shock Strut",
+   "title": "AMM 32-11 - MLG Shock Strut",
+   "version_label": "Rev. B",
+   "effective_date": "2025-03-01",
+   "is_current": true,
+   "source_filename": "AMM-32-11_RevB.pdf",
+   "page_count": 3,
+   "chunk_count": 11,
+   "uploaded_at": "2026-11-17T12:22:30.645336+01:00"
+  },
+  {
+   "id": 3,
+   "family": "SB 32-014 Dynamic Seal",
+   "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+   "version_label": "Original issue",
+   "effective_date": "2025-06-10",
+   "is_current": true,
+   "source_filename": "SB-32-014.pdf",
+   "page_count": 2,
+   "chunk_count": 8,
+   "uploaded_at": "2026-11-17T12:22:30.673078+01:00"
+  }
+ ],
+ "families": [
+  {
+   "family": "AMM 29-10 Green Hydraulic System",
+   "versions": [
+    {
+     "id": 4,
+     "family": "AMM 29-10 Green Hydraulic System",
+     "title": "AMM 29-10 - Green Hydraulic System",
+     "version_label": "Rev. C",
+     "effective_date": "2024-09-01",
+     "is_current": true,
+     "source_filename": "AMM-29-10_RevC.pdf",
+     "page_count": 2,
+     "chunk_count": 7,
+     "uploaded_at": "2026-11-17T12:22:30.692260+01:00"
+    }
+   ]
+  },
+  {
+   "family": "AMM 32-11 MLG Shock Strut",
+   "versions": [
+    {
+     "id": 1,
+     "family": "AMM 32-11 MLG Shock Strut",
+     "title": "AMM 32-11 - MLG Shock Strut",
+     "version_label": "Rev. A",
+     "effective_date": "2024-01-15",
+     "is_current": false,
+     "source_filename": "AMM-32-11_RevA.pdf",
+     "page_count": 3,
+     "chunk_count": 10,
+     "uploaded_at": "2026-11-17T12:22:30.605479+01:00"
+    },
+    {
+     "id": 2,
+     "family": "AMM 32-11 MLG Shock Strut",
+     "title": "AMM 32-11 - MLG Shock Strut",
+     "version_label": "Rev. B",
+     "effective_date": "2025-03-01",
+     "is_current": true,
+     "source_filename": "AMM-32-11_RevB.pdf",
+     "page_count": 3,
+     "chunk_count": 11,
+     "uploaded_at": "2026-11-17T12:22:30.645336+01:00"
+    }
+   ]
+  },
+  {
+   "family": "SB 32-014 Dynamic Seal",
+   "versions": [
+    {
+     "id": 3,
+     "family": "SB 32-014 Dynamic Seal",
+     "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+     "version_label": "Original issue",
+     "effective_date": "2025-06-10",
+     "is_current": true,
+     "source_filename": "SB-32-014.pdf",
+     "page_count": 2,
+     "chunk_count": 8,
+     "uploaded_at": "2026-11-17T12:22:30.673078+01:00"
+    }
+   ]
+  }
+ ],
+ "diffs": {
+  "1-2": {
+   "family": "AMM 32-11 MLG Shock Strut",
+   "from_document": {
+    "id": 1,
+    "family": "AMM 32-11 MLG Shock Strut",
+    "title": "AMM 32-11 - MLG Shock Strut",
+    "version_label": "Rev. A",
+    "effective_date": "2024-01-15",
+    "is_current": false,
+    "source_filename": "AMM-32-11_RevA.pdf",
+    "page_count": 3,
+    "chunk_count": 10,
+    "uploaded_at": "2026-11-17T12:22:30.605479+01:00"
+   },
+   "to_document": {
+    "id": 2,
+    "family": "AMM 32-11 MLG Shock Strut",
+    "title": "AMM 32-11 - MLG Shock Strut",
+    "version_label": "Rev. B",
+    "effective_date": "2025-03-01",
+    "is_current": true,
+    "source_filename": "AMM-32-11_RevB.pdf",
+    "page_count": 3,
+    "chunk_count": 11,
+    "uploaded_at": "2026-11-17T12:22:30.645336+01:00"
+   },
+   "unchanged_sections": 5,
+   "changes": [
+    {
+     "section": "(début du document)",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- A - 15 Jan 2024",
+      "+ B - 01 Mar 2025"
+     ]
+    },
+    {
+     "section": "1 GENERAL",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- This revision A applies to all AD-200 aircraft in service.",
+      "- This is the initial issue of the chapter.",
+      "+ This revision B applies to all AD-200 aircraft in service.",
+      "+ Revision B introduces reduced inspection intervals following in-service experience, a new gland nut torque value and a new corrosion inspection of the lower bearing."
+     ]
+    },
+    {
+     "section": "2.2 Hydraulic fluid level check",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- Check the hydraulic fluid level of the MLG shock strut every 600 FH or 6 months, whichever occurs first.",
+      "+ Check the hydraulic fluid level of the MLG shock strut every 500 FH or 6 months, whichever occurs first."
+     ]
+    },
+    {
+     "section": "3.2 Dynamic seal inspection",
+     "change": "modified",
+     "page_from": 2,
+     "page_to": 2,
+     "diff": [
+      "- Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 600 FH.",
+      "+ Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH."
+     ]
+    },
+    {
+     "section": "3.3 Lower bearing corrosion inspection",
+     "change": "added",
+     "page_from": null,
+     "page_to": 2,
+     "diff": [
+      "+ Inspect the lower bearing of the MLG shock strut for corrosion every 24 months.",
+      "+ Remove light corrosion with abrasive cloth and apply corrosion inhibiting compound.",
+      "+ Replace the bearing if the corrosion depth is more than 0.1 mm."
+     ]
+    },
+    {
+     "section": "4 TORQUE VALUES",
+     "change": "modified",
+     "page_from": 3,
+     "page_to": 3,
+     "diff": [
+      "- Tighten the shock strut gland nut to a torque of 85 N.m.",
+      "+ Tighten the shock strut gland nut to a torque of 90 N.m."
+     ]
+    }
+   ]
+  },
+  "2-1": {
+   "family": "AMM 32-11 MLG Shock Strut",
+   "from_document": {
+    "id": 2,
+    "family": "AMM 32-11 MLG Shock Strut",
+    "title": "AMM 32-11 - MLG Shock Strut",
+    "version_label": "Rev. B",
+    "effective_date": "2025-03-01",
+    "is_current": true,
+    "source_filename": "AMM-32-11_RevB.pdf",
+    "page_count": 3,
+    "chunk_count": 11,
+    "uploaded_at": "2026-11-17T12:22:30.645336+01:00"
+   },
+   "to_document": {
+    "id": 1,
+    "family": "AMM 32-11 MLG Shock Strut",
+    "title": "AMM 32-11 - MLG Shock Strut",
+    "version_label": "Rev. A",
+    "effective_date": "2024-01-15",
+    "is_current": false,
+    "source_filename": "AMM-32-11_RevA.pdf",
+    "page_count": 3,
+    "chunk_count": 10,
+    "uploaded_at": "2026-11-17T12:22:30.605479+01:00"
+   },
+   "unchanged_sections": 5,
+   "changes": [
+    {
+     "section": "(début du document)",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- B - 01 Mar 2025",
+      "+ A - 15 Jan 2024"
+     ]
+    },
+    {
+     "section": "1 GENERAL",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- This revision B applies to all AD-200 aircraft in service.",
+      "- Revision B introduces reduced inspection intervals following in-service experience, a new gland nut torque value and a new corrosion inspection of the lower bearing.",
+      "+ This revision A applies to all AD-200 aircraft in service.",
+      "+ This is the initial issue of the chapter."
+     ]
+    },
+    {
+     "section": "2.2 Hydraulic fluid level check",
+     "change": "modified",
+     "page_from": 1,
+     "page_to": 1,
+     "diff": [
+      "- Check the hydraulic fluid level of the MLG shock strut every 500 FH or 6 months, whichever occurs first.",
+      "+ Check the hydraulic fluid level of the MLG shock strut every 600 FH or 6 months, whichever occurs first."
+     ]
+    },
+    {
+     "section": "3.2 Dynamic seal inspection",
+     "change": "modified",
+     "page_from": 2,
+     "page_to": 2,
+     "diff": [
+      "- Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.",
+      "+ Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 600 FH."
+     ]
+    },
+    {
+     "section": "3.3 Lower bearing corrosion inspection",
+     "change": "removed",
+     "page_from": 2,
+     "page_to": null,
+     "diff": [
+      "- Inspect the lower bearing of the MLG shock strut for corrosion every 24 months.",
+      "- Remove light corrosion with abrasive cloth and apply corrosion inhibiting compound.",
+      "- Replace the bearing if the corrosion depth is more than 0.1 mm."
+     ]
+    },
+    {
+     "section": "4 TORQUE VALUES",
+     "change": "modified",
+     "page_from": 3,
+     "page_to": 3,
+     "diff": [
+      "- Tighten the shock strut gland nut to a torque of 90 N.m.",
+      "+ Tighten the shock strut gland nut to a torque of 85 N.m."
+     ]
+    }
+   ]
+  }
+ },
+ "answers": [
+  {
+   "question": "What is the inspection interval for the shock strut dynamic seals?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH [S1].\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit is installed [S4].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.4725,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.4801,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 14,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.3577,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 26,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.1 Repetitive inspection",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Repetitive inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new\nseal kit is installed.\nIf the leakage rate is more than 2 drops per minute, replace the dynamic seals before further flight.",
+      "similarity": 0.4712,
+      "cited": true
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 27,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.2 Seal replacement",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2.2 Seal replacement\nReplace the dynamic seals with the improved seal kit P/N 32-1175-02. After installation of the\nimproved seal kit, the repetitive inspection of paragraph 2.1 is no longer necessary.\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.309,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 22,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": null,
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "AD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.3307,
+      "cited": false
+     }
+    ],
+    "contradictions": [
+     {
+      "kind": "numeric",
+      "ref_a": "S1",
+      "ref_b": "S4",
+      "explanation": "Valeurs différentes pour un contexte proche : « …dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH. The maximum permissible… » / « …dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit… »",
+      "confidence": "medium"
+     }
+    ],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.4801,
+    "llm_provider": "extractive",
+    "latency_ms": 9
+   }
+  },
+  {
+   "question": "What is the inspection interval for the shock strut dynamic seals?",
+   "include_superseded": true,
+   "answer": {
+    "status": "answered",
+    "answer": "Inspect the dynamic seals of the MLG shock strut for hydraulic leakage every 600 FH [S1].\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH [S2].\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit is installed [S5].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 8,
+      "document_id": 1,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. A",
+      "is_current": false,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 600 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.4727,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.4725,
+      "cited": true
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.4801,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 4,
+      "document_id": 1,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. A",
+      "is_current": false,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.3577,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 26,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.1 Repetitive inspection",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Repetitive inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new\nseal kit is installed.\nIf the leakage rate is more than 2 drops per minute, replace the dynamic seals before further flight.",
+      "similarity": 0.4712,
+      "cited": true
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 14,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.3577,
+      "cited": false
+     }
+    ],
+    "contradictions": [
+     {
+      "kind": "version_change",
+      "ref_a": "S1",
+      "ref_b": "S2",
+      "explanation": "La valeur a changé entre la version Rev. A et la version Rev. B : « …dynamic seals of the MLG shock strut for hydraulic leakage every 600 FH. The maximum permissible… » / « …dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH. The maximum permissible… »",
+      "confidence": "high"
+     },
+     {
+      "kind": "numeric",
+      "ref_a": "S2",
+      "ref_b": "S5",
+      "explanation": "Valeurs différentes pour un contexte proche : « …dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH. The maximum permissible… » / « …dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit… »",
+      "confidence": "medium"
+     }
+    ],
+    "warnings": [
+     "Certaines sources proviennent d'une version remplacée (SUPERSEDED) d'un document."
+    ],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.4801,
+    "llm_provider": "extractive",
+    "latency_ms": 4
+   }
+  },
+  {
+   "question": "What is the torque value for the shock strut gland nut?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "Tighten the shock strut gland nut to a torque of 90 N.m [S1].\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement [S3].\nRevision B introduces reduced inspection intervals following in-service experience, a new gland nut torque value and a new corrosion inspection of the lower bearing [S5].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 20,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "4 TORQUE VALUES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "4 TORQUE VALUES\nTighten the shock strut gland nut to a torque of 90 N.m. Safety the gland nut with lockwire after the\ntorque check.\nTighten the torque link attachment bolts to a torque of 120 N.m.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.5286,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 14,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.3653,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 27,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.2 Seal replacement",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2.2 Seal replacement\nReplace the dynamic seals with the improved seal kit P/N 32-1175-02. After installation of the\nimproved seal kit, the repetitive inspection of paragraph 2.1 is no longer necessary.\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.2471,
+      "cited": true
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.2731,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.2099,
+      "cited": true
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.2336,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.5286,
+    "llm_provider": "extractive",
+    "latency_ms": 4
+   }
+  },
+  {
+   "question": "What nitrogen pressure should the main landing gear shock strut be charged to?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "Charge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature of 20 °C, with the shock strut fully extended [S1].\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of the AD-200 aircraft [S2].\nAMM 32-11 - Main Landing Gear Shock Strut [S5].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 14,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.5162,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.3331,
+      "cited": true
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.3206,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 21,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "5 TOOLS AND CONSUMABLES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "5 TOOLS AND CONSUMABLES\nNitrogen charging kit with pressure gauge (accuracy 1 %). Torque wrench 20-200 N.m. Lint-free\ncloth. Hydraulic fluid MIL-PRF-5606. Lockwire 0.032 in.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.2782,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 11,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": null,
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "AMM 32-11 - Main Landing Gear Shock Strut\nAD-200 AMM 32-11 Rev. B - 01 Mar 2025",
+      "similarity": 0.4089,
+      "cited": true
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 29,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "3 MATERIAL INFORMATION",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3 MATERIAL INFORMATION\nSeal kit P/N 32-1175-02 contains one dynamic seal, two backup rings and one wiper ring.\nEstimated labour: 6 man-hours per shock strut.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.2976,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.5162,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "What is the maximum permissible pitting depth on the chrome surface?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "The maximum permissible pitting depth on the chrome surface is 0.25 mm [S1].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 17,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.1 Chrome surface inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.1 Chrome surface inspection\nInspect the exposed chrome surface of the sliding tube for pitting, scratches and corrosion every 12\nmonths.\nThe maximum permissible pitting depth on the chrome surface is 0.25 mm. Replace the sliding tube\nif the pitting depth is more than this limit.\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.5301,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.1347,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 36,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "4 FLUID SAMPLING",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "4 FLUID SAMPLING\nTake a sample of hydraulic fluid from the reservoir every 6 months for contamination analysis.\nThe maximum permissible water content of the hydraulic fluid is 0.1 %.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0884,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 25,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2 ACCOMPLISHMENT INSTRUCTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2 ACCOMPLISHMENT INSTRUCTIONS\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.0877,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 13,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2 SERVICING",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2 SERVICING\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.0514,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 19,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.3 Lower bearing corrosion inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.3 Lower bearing corrosion inspection\nInspect the lower bearing of the MLG shock strut for corrosion every 24 months.\nRemove light corrosion with abrasive cloth and apply corrosion inhibiting compound. Replace the\nbearing if the corrosion depth is more than 0.1 mm.",
+      "similarity": -0.0561,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.5301,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "How often is the lower bearing inspected for corrosion?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "3.3 Lower bearing corrosion inspection [S1].\nInspect the lower bearing of the MLG shock strut for corrosion every 24 months [S1].\nRevision B introduces reduced inspection intervals following in-service experience, a new gland nut torque value and a new corrosion inspection of the lower bearing [S2].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 19,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.3 Lower bearing corrosion inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.3 Lower bearing corrosion inspection\nInspect the lower bearing of the MLG shock strut for corrosion every 24 months.\nRemove light corrosion with abrasive cloth and apply corrosion inhibiting compound. Replace the\nbearing if the corrosion depth is more than 0.1 mm.",
+      "similarity": 0.5697,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.1236,
+      "cited": true
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0764,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 17,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.1 Chrome surface inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.1 Chrome surface inspection\nInspect the exposed chrome surface of the sliding tube for pitting, scratches and corrosion every 12\nmonths.\nThe maximum permissible pitting depth on the chrome surface is 0.25 mm. Replace the sliding tube\nif the pitting depth is more than this limit.\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.0421,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 26,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.1 Repetitive inspection",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Repetitive inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new\nseal kit is installed.\nIf the leakage rate is more than 2 drops per minute, replace the dynamic seals before further flight.",
+      "similarity": 0.0642,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.0403,
+      "cited": false
+     }
+    ],
+    "contradictions": [
+     {
+      "kind": "numeric",
+      "ref_a": "S3",
+      "ref_b": "S5",
+      "explanation": "Valeurs différentes pour un contexte proche : « …dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH. The maximum permissible… » / « …dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit… »",
+      "confidence": "medium"
+     }
+    ],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.5697,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "Which seal kit part number replaces the dynamic seals?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "Replace the dynamic seals with the improved seal kit P/N 32-1175-02 [S1].\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit is installed [S2].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 27,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.2 Seal replacement",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2.2 Seal replacement\nReplace the dynamic seals with the improved seal kit P/N 32-1175-02. After installation of the\nimproved seal kit, the repetitive inspection of paragraph 2.1 is no longer necessary.\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.3335,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 26,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.1 Repetitive inspection",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Repetitive inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new\nseal kit is installed.\nIf the leakage rate is more than 2 drops per minute, replace the dynamic seals before further flight.",
+      "similarity": 0.3162,
+      "cited": true
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.289,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.302,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 29,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "3 MATERIAL INFORMATION",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3 MATERIAL INFORMATION\nSeal kit P/N 32-1175-02 contains one dynamic seal, two backup rings and one wiper ring.\nEstimated labour: 6 man-hours per shock strut.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.2185,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 22,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": null,
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "AD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.1836,
+      "cited": false
+     }
+    ],
+    "contradictions": [
+     {
+      "kind": "numeric",
+      "ref_a": "S2",
+      "ref_b": "S3",
+      "explanation": "Valeurs différentes pour un contexte proche : « …dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new seal kit… » / « …dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH. The maximum permissible… »",
+      "confidence": "medium"
+     }
+    ],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.3335,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "How often should hydraulic fluid samples be taken for contamination analysis?",
+   "include_superseded": false,
+   "answer": {
+    "status": "answered",
+    "answer": "Take a sample of hydraulic fluid from the reservoir every 6 months for contamination analysis [S1].",
+    "refusal_reason": null,
+    "refusal_message": null,
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 36,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "4 FLUID SAMPLING",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "4 FLUID SAMPLING\nTake a sample of hydraulic fluid from the reservoir every 6 months for contamination analysis.\nThe maximum permissible water content of the hydraulic fluid is 0.1 %.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.3346,
+      "cited": true
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 15,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.2 Hydraulic fluid level check",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.2 Hydraulic fluid level check\nCheck the hydraulic fluid level of the MLG shock strut every 500 FH or 6 months, whichever occurs\nfirst.\nUse only hydraulic fluid MIL-PRF-5606 for the shock strut servicing.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.2817,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.1382,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 32,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the maintenance data for the green hydraulic system of the AD-200 aircraft:\nengine driven pump (EDP), reservoir, filters and fluid.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.2011,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 21,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "5 TOOLS AND CONSUMABLES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "5 TOOLS AND CONSUMABLES\nNitrogen charging kit with pressure gauge (accuracy 1 %). Torque wrench 20-200 N.m. Lint-free\ncloth. Hydraulic fluid MIL-PRF-5606. Lockwire 0.032 in.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.1449,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 35,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "3 RESERVOIR",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3 RESERVOIR\nThe hydraulic reservoir is pressurized with bleed air to 50 psi.\nCheck the reservoir fluid level on the level indicator every 7 days.",
+      "similarity": 0.1365,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": 1.0,
+    "top_similarity": 0.3346,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "Quel est l'intervalle d'inspection des joints dynamiques de l'amortisseur ?",
+   "include_superseded": false,
+   "answer": {
+    "status": "refused",
+    "answer": null,
+    "refusal_reason": "no_relevant_sources",
+    "refusal_message": "Aucun passage de la base documentaire ne traite suffisamment de cette question. Je préfère ne pas répondre plutôt que de risquer une information non sourcée.",
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 17,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.1 Chrome surface inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.1 Chrome surface inspection\nInspect the exposed chrome surface of the sliding tube for pitting, scratches and corrosion every 12\nmonths.\nThe maximum permissible pitting depth on the chrome surface is 0.25 mm. Replace the sliding tube\nif the pitting depth is more than this limit.\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.1068,
+      "cited": false
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 19,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.3 Lower bearing corrosion inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.3 Lower bearing corrosion inspection\nInspect the lower bearing of the MLG shock strut for corrosion every 24 months.\nRemove light corrosion with abrasive cloth and apply corrosion inhibiting compound. Replace the\nbearing if the corrosion depth is more than 0.1 mm.",
+      "similarity": 0.0901,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0841,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 26,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.1 Repetitive inspection",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Repetitive inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 400 FH until the new\nseal kit is installed.\nIf the leakage rate is more than 2 drops per minute, replace the dynamic seals before further flight.",
+      "similarity": 0.0707,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 27,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.2 Seal replacement",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2.2 Seal replacement\nReplace the dynamic seals with the improved seal kit P/N 32-1175-02. After installation of the\nimproved seal kit, the repetitive inspection of paragraph 2.1 is no longer necessary.\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.0602,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.0108,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": null,
+    "top_similarity": 0.1068,
+    "llm_provider": "extractive",
+    "latency_ms": 2
+   }
+  },
+  {
+   "question": "What is the torque value for the wheel axle nut?",
+   "include_superseded": false,
+   "answer": {
+    "status": "refused",
+    "answer": null,
+    "refusal_reason": "llm_abstained",
+    "refusal_message": "Les passages retrouvés ne contiennent pas l'information demandée. Vérifiez que le bon document (et la bonne version) est importé.",
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 20,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "4 TORQUE VALUES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "4 TORQUE VALUES\nTighten the shock strut gland nut to a torque of 90 N.m. Safety the gland nut with lockwire after the\ntorque check.\nTighten the torque link attachment bolts to a torque of 120 N.m.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.3056,
+      "cited": false
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.1233,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 27,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2.2 Seal replacement",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2.2 Seal replacement\nReplace the dynamic seals with the improved seal kit P/N 32-1175-02. After installation of the\nimproved seal kit, the repetitive inspection of paragraph 2.1 is no longer necessary.\nTighten the shock strut gland nut to a torque of 90 N.m after the seal replacement.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 Service Bulletin 32-014 - 10 Jun 2025 - SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "similarity": 0.058,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 21,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "5 TOOLS AND CONSUMABLES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "5 TOOLS AND CONSUMABLES\nNitrogen charging kit with pressure gauge (accuracy 1 %). Torque wrench 20-200 N.m. Lint-free\ncloth. Hydraulic fluid MIL-PRF-5606. Lockwire 0.032 in.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.0776,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0393,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 33,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "2 FILTERS",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2 FILTERS\nReplace the EDP case drain filter element every 1,000 FH.\nReplace the high pressure filter element when the differential pressure indicator is extended, or\nevery 3,000 FH, whichever occurs first.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 AMM 29-10 Rev. C - 01 Sep 2024 - AMM 29-10 - Green Hydraulic System",
+      "similarity": 0.013,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": null,
+    "top_similarity": 0.3056,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "What is the nose wheel tire pressure?",
+   "include_superseded": false,
+   "answer": {
+    "status": "refused",
+    "answer": null,
+    "refusal_reason": "llm_abstained",
+    "refusal_message": "Les passages retrouvés ne contiennent pas l'information demandée. Vérifiez que le bon document (et la bonne version) est importé.",
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 14,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2.1 Nitrogen charging of the shock strut",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2.1 Nitrogen charging of the shock strut\nCharge the MLG shock strut with dry nitrogen to a pressure of 1,450 psi at an ambient temperature\nof 20 °C, with the shock strut fully extended.\nCorrect the charging pressure for temperature with the servicing chart: add 4 psi for each degree\nabove 20 °C.\nDo not use compressed air or oxygen to charge the shock strut.",
+      "similarity": 0.119,
+      "cited": false
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 21,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "5 TOOLS AND CONSUMABLES",
+      "page_start": 3,
+      "page_end": 3,
+      "excerpt": "5 TOOLS AND CONSUMABLES\nNitrogen charging kit with pressure gauge (accuracy 1 %). Torque wrench 20-200 N.m. Lint-free\ncloth. Hydraulic fluid MIL-PRF-5606. Lockwire 0.032 in.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.1322,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 33,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "2 FILTERS",
+      "page_start": 1,
+      "page_end": 2,
+      "excerpt": "2 FILTERS\nReplace the EDP case drain filter element every 1,000 FH.\nReplace the high pressure filter element when the differential pressure indicator is extended, or\nevery 3,000 FH, whichever occurs first.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.\nAD-200 AMM 29-10 Rev. C - 01 Sep 2024 - AMM 29-10 - Green Hydraulic System",
+      "similarity": 0.102,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 17,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.1 Chrome surface inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.1 Chrome surface inspection\nInspect the exposed chrome surface of the sliding tube for pitting, scratches and corrosion every 12\nmonths.\nThe maximum permissible pitting depth on the chrome surface is 0.25 mm. Replace the sliding tube\nif the pitting depth is more than this limit.\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.0586,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 29,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "3 MATERIAL INFORMATION",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3 MATERIAL INFORMATION\nSeal kit P/N 32-1175-02 contains one dynamic seal, two backup rings and one wiper ring.\nEstimated labour: 6 man-hours per shock strut.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.07,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 12,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "1 GENERAL",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 GENERAL\nThis chapter gives the servicing and inspection data for the main landing gear (MLG) shock strut of\nthe AD-200 aircraft. The shock strut is an oleo-pneumatic unit filled with hydraulic fluid and dry\nnitrogen.\nThis revision B applies to all AD-200 aircraft in service. Revision B introduces reduced inspection\nintervals following in-service experience, a new gland nut torque value and a new corrosion\ninspection of the lower bearing.\nMake sure that the safety pins are installed on the landing gear before any task. Put warning\nnotices in the flight compartment to tell persons not to operate the landing gear controls. Wear\nprotective goggles and gloves when working with pressurized gas or hydraulic fluid.",
+      "similarity": 0.0795,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": null,
+    "top_similarity": 0.1322,
+    "llm_provider": "extractive",
+    "latency_ms": 3
+   }
+  },
+  {
+   "question": "What is the maximum takeoff weight of the aircraft?",
+   "include_superseded": false,
+   "answer": {
+    "status": "refused",
+    "answer": null,
+    "refusal_reason": "llm_abstained",
+    "refusal_message": "Les passages retrouvés ne contiennent pas l'information demandée. Vérifiez que le bon document (et la bonne version) est importé.",
+    "sources": [
+     {
+      "ref": "S1",
+      "chunk_id": 13,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "2 SERVICING",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2 SERVICING\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.1545,
+      "cited": false
+     },
+     {
+      "ref": "S2",
+      "chunk_id": 17,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.1 Chrome surface inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.1 Chrome surface inspection\nInspect the exposed chrome surface of the sliding tube for pitting, scratches and corrosion every 12\nmonths.\nThe maximum permissible pitting depth on the chrome surface is 0.25 mm. Replace the sliding tube\nif the pitting depth is more than this limit.\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.1029,
+      "cited": false
+     },
+     {
+      "ref": "S3",
+      "chunk_id": 25,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "2 ACCOMPLISHMENT INSTRUCTIONS",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "2 ACCOMPLISHMENT INSTRUCTIONS\nLift the aircraft on jacks in accordance with the jacking procedure before the task. Make sure that\nthe aircraft is in the static ground attitude and that the wheels are clear of the ground. Clean the\nexternal surfaces of the component with a lint-free cloth before the inspection.",
+      "similarity": 0.181,
+      "cited": false
+     },
+     {
+      "ref": "S4",
+      "chunk_id": 24,
+      "document_id": 3,
+      "title": "SB 32-014 - MLG Shock Strut Dynamic Seal",
+      "family": "SB 32-014 Dynamic Seal",
+      "version_label": "Original issue",
+      "is_current": true,
+      "section": "1 PLANNING INFORMATION",
+      "page_start": 1,
+      "page_end": 1,
+      "excerpt": "1 PLANNING INFORMATION\nSubject: Main landing gear - Shock strut dynamic seal - Inspection and replacement.\nReason: Operators reported premature wear of the MLG shock strut dynamic seals on aircraft\noperated from short runways with a high number of landings.\nCompliance: Recommended. This service bulletin applies to all AD-200 aircraft in service.",
+      "similarity": 0.121,
+      "cited": false
+     },
+     {
+      "ref": "S5",
+      "chunk_id": 36,
+      "document_id": 4,
+      "title": "AMM 29-10 - Green Hydraulic System",
+      "family": "AMM 29-10 Green Hydraulic System",
+      "version_label": "Rev. C",
+      "is_current": true,
+      "section": "4 FLUID SAMPLING",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "4 FLUID SAMPLING\nTake a sample of hydraulic fluid from the reservoir every 6 months for contamination analysis.\nThe maximum permissible water content of the hydraulic fluid is 0.1 %.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0608,
+      "cited": false
+     },
+     {
+      "ref": "S6",
+      "chunk_id": 18,
+      "document_id": 2,
+      "title": "AMM 32-11 - MLG Shock Strut",
+      "family": "AMM 32-11 MLG Shock Strut",
+      "version_label": "Rev. B",
+      "is_current": true,
+      "section": "3.2 Dynamic seal inspection",
+      "page_start": 2,
+      "page_end": 2,
+      "excerpt": "3.2 Dynamic seal inspection\nInspect the dynamic seals of the MLG shock strut for hydraulic leakage every 500 FH.\nThe maximum permissible leakage rate at the dynamic seal is 2 drops per minute with the shock\nstrut compressed. Replace the seals if the leakage rate is more than this limit.\nRecord the task, the measured values and the date in the aircraft maintenance records. Any value\noutside the limits given in this section must be reported to the operator engineering department.",
+      "similarity": 0.0674,
+      "cited": false
+     }
+    ],
+    "contradictions": [],
+    "warnings": [],
+    "citation_coverage": null,
+    "top_similarity": 0.181,
+    "llm_provider": "extractive",
+    "latency_ms": 2
+   }
+  }
+ ]
+}
