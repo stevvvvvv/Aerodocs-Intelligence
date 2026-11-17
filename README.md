@@ -4,7 +4,7 @@
 
 Projet 02 du portfolio de Steven Jansen. Il fait suite à AeroHealth AI (maintenance prédictive).
 
-**[Démo en ligne](https://huggingface.co/spaces/steevv/aerodocs-intelligence)** (lecture seule, corpus fictif, réponses extractives sans LLM) · [Évaluation](docs/EVALUATION.md) · [Architecture](docs/ARCHITECTURE.md)
+**[Démo en ligne](https://huggingface.co/spaces/Steevv/aerodocs-intelligence)** (lecture seule, corpus fictif, réponses extractives sans LLM) · [Évaluation](docs/EVALUATION.md) · [Architecture](docs/ARCHITECTURE.md)
 
 ![Réponse avec citations et contradiction détectée](docs/screenshots/assistant-contradiction.png)
 
@@ -64,7 +64,7 @@ Le service Ollama réserve le GPU NVIDIA (Docker Desktop + WSL2). Sur une RTX 20
 L'image `deploy/Dockerfile.space` regroupe PostgreSQL + pgvector, l'API et l'interface dans un seul conteneur, sur le port 7860. Elle tourne en lecture seule et importe le corpus fictif au démarrage. Le workflow `.github/workflows/deploy-space.yml` la publie à chaque push sur `main`. Il nécessite, dans les paramètres du dépôt GitHub (Secrets and variables, puis Actions) :
 
 - le secret `HF_TOKEN`, un token Hugging Face avec droit d'écriture ;
-- la variable `HF_SPACE`, par exemple `steevv/aerodocs-intelligence`.
+- la variable `HF_SPACE`, par exemple `Steevv/aerodocs-intelligence`.
 
 Pour activer une vraie génération sur la démo, ajoutez `LLM_PROVIDER`, `LLM_MODEL` et `ANTHROPIC_API_KEY` dans les secrets du Space.
 
